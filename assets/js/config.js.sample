@@ -1,0 +1,12 @@
+// このファイルのsampleを外してConfigとして利用する
+// API_KEYをセットして、GoogleMapを使用するJSでLoadを呼ぶ
+var config = {
+    GOOGLE_AP_API_KEY: '',
+    GOOGLE_MAP_SCRIPT_LOAD: function (callBackName) {
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = 'https://maps.googleapis.com/maps/api/js?key=' + config.GOOGLE_AP_API_KEY + '&callback=' + callBackName;
+
+        document.getElementsByTagName('head')[0].appendChild(script);
+    }
+};

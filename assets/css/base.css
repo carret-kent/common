@@ -1,0 +1,54 @@
+.content {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 60px;
+}
+
+.header {
+    background-color: #292B2E;
+    color: white;
+    height: auto;
+    font-size: 28px;
+    position: fixed;
+    z-index: 1500;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 10px;
+}
+
+.sidebar {
+    background-color: gainsboro;
+    position: fixed;
+    top:62px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.main-area {
+    padding: 20px;
+}
+
+.section {
+    border-top: solid 5px lightgray;
+    border-bottom: solid 5px lightgray;
+    padding: 10px;
+}
+
+.description {
+    padding: 0.5em 1.0em;
+    margin: 1em 0;
+    color: #5d627b;
+    background: white;
+    border-top: solid 5px dodgerblue;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.07);
+}
+
+.btn-margin {
+    margin-top: 10px;
+}

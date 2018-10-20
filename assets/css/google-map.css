@@ -1,0 +1,16 @@
+h1 {
+    color: dodgerblue;
+}
+
+.pin:before {
+    font-family: 'Font Awesome 5 Free';
+    content: '\f3c5';
+    font-weight: 900;
+}
+
+.map-area {
+    background-color: darkgrey;
+    height: 400px;
+    margin-bottom: 10px;
+}
+
