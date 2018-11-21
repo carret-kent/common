@@ -28,4 +28,7 @@ $(function () {
     $('#run').on('click', function (event) {
         test_flux.action('first');
     });
+    $('.datepicker').datepicker({
+        uiLibrary: 'bootstrap4'
+    });
 });
